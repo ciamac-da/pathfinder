@@ -1,0 +1,47 @@
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/color';
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.dialog {
+    background: color.$white;
+    color: color.$black;
+    padding: spacing.$spacing-m;
+    border-radius: spacing.$spacing-xs;
+    max-width: 520px;
+    width: 100%;
+    box-shadow: 0 spacing.$spacing-base spacing.$spacing-m rgba(0, 0, 0, 0.25);
+}
+.title {
+    font-weight: 700;
+    margin-bottom: spacing.$spacing-xxs;
+}
+.message {
+    margin-bottom: spacing.$spacing-s;
+    color: color.$black50;
+}
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: spacing.$spacing-xxs;
+}
+.btn {
+    padding: spacing.$spacing-xxs spacing.$spacing-m;
+    border-radius: spacing.$spacing-xs;
+    border: size.$sp01 solid color.$black;
+    background: color.$white;
+    cursor: pointer;
+}
+.btnPrimary {
+    background: color.$magenta;
+    color: color.$white;
+    border-color: color.$dark-vibrant;
+}

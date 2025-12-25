@@ -1,0 +1,42 @@
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/color';
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    gap: spacing.$spacing-xxs;
+}
+.button {
+    border-radius: spacing.$spacing-xxs;
+    padding: spacing.$spacing-base spacing.$spacing-xxs;
+    border: size.$sp01 solid color.$black;
+    display: inline-block;
+    width: spacing.$spacing-3-xl;
+}
+.normal {
+    background: color.$gold;
+    color: color.$white;
+}
+.bad {
+    background: color.$vibrant;
+    color: color.$white;
+}
+.good {
+    background: color.$green;
+    color: color.$white;
+}
+.neutral {
+    background: color.$white;
+}
+.hint {
+    color: color.$black50;
+    font-size: size.$sp12;
+}
+.select {
+    padding: spacing.$spacing-base spacing.$spacing-xxs;
+    border-radius: spacing.$spacing-xxs;
+    border: size.$sp01 solid color.$white;
+    font-size: size.$sp12;
+    min-width: spacing.$spacing-3-xl;
+}

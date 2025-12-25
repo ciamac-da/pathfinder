@@ -1,0 +1,108 @@
+@use '@/abstracts/color';
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: color.$white;
+    box-sizing: border-box;
+    width: 100%;
+    margin: spacing.$spacing-s 0;
+    padding: spacing.$spacing-xs;
+    border-radius: spacing.$spacing-xs;
+    justify-self: center;
+
+    @include breakpoint.media-breakpoint-up(sm) {
+        justify-self: start;
+    }
+    @include breakpoint.media-breakpoint-up(md) {
+        margin: spacing.$spacing-s 0;
+        padding: spacing.$spacing-xs;
+    }
+
+    .cardTitle {
+        font-size: size.$sp20;
+        font-weight: bold;
+        color: color.$dark-grey;
+        padding: 0 0 spacing.$spacing-xs 0;
+
+        @include breakpoint.media-breakpoint-up(md) {
+            padding: 0 0 spacing.$spacing-s 0;
+        }
+    }
+
+    .cardContent {
+        display: flex;
+        flex-direction: column;
+        gap: spacing.$spacing-s;
+
+        @include breakpoint.media-breakpoint-up(md) {
+            gap: spacing.$spacing-m;
+        }
+    }
+
+    .textArea {
+        width: 100%;
+        padding: spacing.$spacing-xs;
+        border: size.$sp01 solid color.$black;
+        border-radius: spacing.$spacing-xxs;
+        font-size: size.$sp16;
+        font-family: inherit;
+        resize: vertical;
+
+        &:focus {
+            outline: none;
+            border-color: color.$magenta;
+            box-shadow: 0 0 0 size.$sp01 color.$magenta;
+        }
+    }
+    .textAreaActions {
+        margin-top: spacing.$spacing-xxs;
+        display: flex;
+        gap: spacing.$spacing-xxs;
+
+        @include breakpoint.media-breakpoint-up(md) {
+            gap: spacing.$spacing-xs;
+        }
+    }
+    .saveBtn {
+        background-color: color.$green;
+        color: color.$white;
+        border: none;
+        padding: spacing.$spacing-base spacing.$spacing-xs;
+        border-radius: spacing.$spacing-xxs;
+        cursor: pointer;
+
+        &:hover {
+            background-color: color.$dark-green;
+        }
+    }
+    .cancelBtn {
+        background-color: color.$vibrant;
+        color: color.$white;
+        border: none;
+        padding: spacing.$spacing-base spacing.$spacing-xs;
+        border-radius: spacing.$spacing-xxs;
+        cursor: pointer;
+
+        &:hover {
+            background-color: color.$dark-vibrant;
+        }
+    }
+    .addInfoBtn {
+        background: none;
+        border: none;
+        color: color.$magenta;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 0;
+        font-size: size.$sp16;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

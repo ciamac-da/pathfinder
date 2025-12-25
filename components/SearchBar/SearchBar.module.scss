@@ -1,0 +1,17 @@
+@use '@/abstracts/spacing';
+@use '@/abstracts/color';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.search {
+    input {
+        padding: spacing.$spacing-xxs;
+        border-radius: spacing.$spacing-base;
+        border: size.$sp01 solid color.$white;
+        width: -webkit-fill-available;
+
+        @include breakpoint.media-breakpoint-up(md) {
+            padding: spacing.$spacing-xs;
+        }
+    }
+}

@@ -1,0 +1,97 @@
+@use '@/abstracts/color';
+@use '@/abstracts/size';
+@use '@/abstracts/spacing';
+@use '@/abstracts/breakpoint';
+@use '@/abstracts/breakpoint/variables';
+/* Global box-sizing reset for all elements and prevent horizontal overflow */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: color.$dark-gradient;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: cover;
+    background-position: center;
+    color: color.$white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    //user-select: none;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        overscroll-behavior: none;
+    }
+}
+
+/* Constrain media and large elements */
+img,
+video,
+canvas,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    flex: 1;
+    padding: 0 spacing.$spacing-xs;
+    overflow-y: auto;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        padding: 0 spacing.$spacing-xl;
+        margin: 0 auto;
+    }
+    @include breakpoint.media-breakpoint-up(xxl) {
+        max-width: 1340px;
+    }
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: spacing.$spacing-base + spacing.$spacing-xxs;
+    margin-top: spacing.$spacing-xs;
+}
+
+@include breakpoint.media-breakpoint-up(md) {
+    .grid {
+        gap: spacing.$spacing-m;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+/* Use a safe pointer cursor for interactive controls to avoid large data-URI issues */
+button,
+.export,
+.tab {
+    cursor: pointer;
+}
+
+/* Screen-reader only helper */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}

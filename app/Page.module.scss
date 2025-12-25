@@ -1,0 +1,30 @@
+@use '@/abstracts/spacing';
+@use '@/abstracts/color';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.firstContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: spacing.$spacing-3-xl;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        margin-top: spacing.$spacing-3-xl + spacing.$spacing-l;
+    }
+}
+
+.topbar {
+    margin-top: spacing.$spacing-m;
+}
+
+.summaryBox {
+    padding: spacing.$spacing-s;
+    margin: spacing.$spacing-m 0;
+    width: 100%;
+    height: 550px;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        margin-top: spacing.$spacing-m;
+        padding: spacing.$spacing-m;
+    }
+}

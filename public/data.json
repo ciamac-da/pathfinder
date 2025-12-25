@@ -1,0 +1,1532 @@
+[
+    {
+        "id": "tooling",
+        "title": {
+            "en": "Tooling",
+            "de": "Tooling"
+        },
+        "items": [
+            {
+                "id": "row-1",
+                "label": {
+                    "en": "Version Control",
+                    "de": "Versionsverwaltung"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You're able to fix issues, set up projects and perform migrations.",
+                        "de": "Du bist in der Lage Fehler zu beheben, Projekte aufzusetzen und zu migrieren. "
+                    },
+                    "intermediate": {
+                        "en": "You can handle more complex tasks and understand how the tools work.",
+                        "de": "Du kannst komplexere Aufgaben durchführen. Du verstehst die Funktionsweise des eingesetzten Werkzeugs."
+                    },
+                    "junior": {
+                        "en": "You can perform basic operations independently, repeatedly and without errors.",
+                        "de": "Du bist in der Lage,  einfache Operationen selbstständig, wiederholend und fehlerfrei durchzuführen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-2",
+                "label": {
+                    "en": "Development Environment",
+                    "de": "Entwicklungsumgebung"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can set up new environments that others can use.",
+                        "de": "Du bist in der Lage, neue Umgebungen aufzusetzen, die von anderen genutzt werden können."
+                    },
+                    "intermediate": {
+                        "en": "You can create and configure environment variations (for example for testing).",
+                        "de": "Du bist der Lage Variationen der Umgebung z.B. zu Testzwecken zu erzeugen und zu konfigurieren."
+                    },
+                    "junior": {
+                        "en": "You can independently use the configured development environment (start, stop, reset).",
+                        "de": "Du bist in der Lage, die eingesetzte Entwicklungsumgebung eigenständig zu nutzen. Dazu zählt Starten, Stoppen und zurücksetzen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-3",
+                "label": {
+                    "en": "Build Tools (Maven, Gradle, NPM, …)",
+                    "de": "Build-Prozess (Maven, Gradle, NPM, …)"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can set up new projects, migrate projects and perform complex version upgrades.",
+                        "de": "Du bist in der Lage neue Projekte aufzusetzen. Du kannst Projekte migrieren und komplexe Versionsupdates durchführen."
+                    },
+                    "intermediate": {
+                        "en": "You can integrate updates and have a basic understanding of the tools used.",
+                        "de": "Du kannst Updates integrieren und hast ein grundlegendes Verständnis der eingesetzten Software."
+                    },
+                    "junior": {
+                        "en": "You can build and start the application using the configured tooling.",
+                        "de": "Du bist in der Lage, mit Hilfe der konfigurierten Hilfsmittel das Programm zu erstellen und zu starten."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    },
+    {
+        "id": "programming",
+        "title": {
+            "en": "Programming",
+            "de": "Programmierung"
+        },
+        "items": [
+            {
+                "id": "row-4",
+                "label": {
+                    "en": "Programming Rules",
+                    "de": "Programmier-Regeln"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can define and adapt rules for a project.",
+                        "de": "Du kannst Regeln für ein Projekt definieren und anpassen"
+                    },
+                    "intermediate": {
+                        "en": "You can sensibly extend or adapt rules and are able to identify and justify exceptions.",
+                        "de": "Du kannst Regeln sinnvoll erweitern oder anpassen. Du bist in der Lage, Ausnahmen zu erkennen und zu verargumentieren."
+                    },
+                    "junior": {
+                        "en": "You are able to follow and implement the agreed rules.",
+                        "de": "Du bist in der Lage, die verabschiedeten Regeln zu befolgen und umzusetzen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-5",
+                "label": {
+                    "en": "Documentation",
+                    "de": "Dokumentation"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can document entire systems in a clear and useful way and explain complex areas understandably.",
+                        "de": "Du kannst gesamte Systeme sinnvoll und verständlich dokumentieren. Du bist in der Lage, komplexe Sachbereiche verständlich zu beschreiben."
+                    },
+                    "intermediate": {
+                        "en": "You can document larger structures and programs clearly and are able to identify and correct deviations.",
+                        "de": "Du kannst größere Strukturen und Programme verständlich dokumentieren. Du bist in der Lage, Abweichungen zu erkennen und zu korrigieren."
+                    },
+                    "junior": {
+                        "en": "You can document simple structures clearly and sensibly.",
+                        "de": "Du bist in der Lage, einfache Strukturen verständlich und sinnvoll zu dokumentieren."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-6",
+                "label": {
+                    "en": "Metrics (maintainability, complexity, …)",
+                    "de": "Metriken (Wartbarkeit, Komplexität, …):"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You define sensible metrics and can collect and prepare them.",
+                        "de": "Du definierst sinnvolle Metriken und bist in der Lage diese zu erfassen und aufzubereiten."
+                    },
+                    "intermediate": {
+                        "en": "You can interpret metrics and derive measures for your program from them.",
+                        "de": "Du kannst Metriken interpretieren und bist in der Lage, daraus Maßnahmen für dein Programm abzuleiten."
+                    },
+                    "junior": {
+                        "en": "You can perform simple operations independently, repeatedly and reliably.",
+                        "de": "Du bist in der Lage,  einfache Operationen selbstständig, wiederholend und fehlerfrei durchzuführen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-7",
+                "label": {
+                    "en": "Testing",
+                    "de": "Tests"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can create test scenarios for complex systems and assess whether the right systems are used.",
+                        "de": "Du bist in der Lage, Testszenarien für komplexe Systeme zu erstellen und kannst bewerten ob die richtigen Systeme eingesetzt werden."
+                    },
+                    "intermediate": {
+                        "en": "You can add tests for more complex interactions and analyze results.",
+                        "de": "Du kannst komplexere Zusammenhänge mit Tests versehen und Ergebnisse analysieren."
+                    },
+                    "junior": {
+                        "en": "You can add tests to simple structures and maintain them.",
+                        "de": "Du bist in der Lage, einfache Strukturen mit Tests zu versehen und diese zu warten."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-8",
+                "label": {
+                    "en": "Security",
+                    "de": "Sicherheit"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You describe fundamentals and rules that must be followed during implementation.",
+                        "de": "Du beschreibst Grundlagen und Regeln, die während der Implementierung eingehalten werden müssen."
+                    },
+                    "senior": {
+                        "en": "You can analyze external code for security issues.",
+                        "de": "Du bist in der Lage, fremden Code zu analysieren."
+                    },
+                    "intermediate": {
+                        "en": "You can perform more complex tasks and understand how the tools work.",
+                        "de": "Du kannst komplexere Aufgaben durchführen. Du verstehst die Funktionsweise des eingesetzten Werkzeugs."
+                    },
+                    "junior": {
+                        "en": "You have a basic understanding of secure coding and avoid obvious vulnerabilities.",
+                        "de": "Du besitzt ein Grundverständnis für Sicheren Code und vermeidest offensichtliche Schwachstellen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-9",
+                "label": {
+                    "en": "Resilience",
+                    "de": "Widerstandsfähigkeit"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You can evaluate code for resilience and recommend improvements.",
+                        "de": null
+                    },
+                    "senior": {
+                        "en": "You can analyze third-party code for resilience.",
+                        "de": "Du bist in der Lage, fremden Code auf seine Widerstandsfähigkeit zu analysieren."
+                    },
+                    "intermediate": {
+                        "en": "You write largely resilient code.",
+                        "de": "Du schreibst weitestgehend widerstands-fähigen Code."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    },
+    {
+        "id": "architecture",
+        "title": {
+            "en": "Architecture",
+            "de": "Architektur"
+        },
+        "items": [
+            {
+                "id": "row-10",
+                "label": {
+                    "en": "Design Patterns (Software)",
+                    "de": "Entwurfsmuster(Software)"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can design and lead the architecture based on foundational principles.",
+                        "de": "Du bist in der Lage, die Architektur auf Basis der Grundlagen aufzubauen."
+                    },
+                    "intermediate": {
+                        "en": "You know the fundamentals and can apply them in projects.",
+                        "de": "Du kennst die Grundlagen und bist in der Lage diese im Projekt anzuwenden."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-11",
+                "label": {
+                    "en": "Performance",
+                    "de": "Leistung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You define rules and concepts to follow during implementation to avoid jeopardizing customer goals.",
+                        "de": "Du beschreibst Regeln und Konzepte, die während der Implementierung eingehalten werden müssen, um das Kundenziel nicht zu gefährden."
+                    },
+                    "senior": {
+                        "en": "You can anticipate performance issues.",
+                        "de": "Du bist in der Lage, Performanceprobleme zu antizipieren."
+                    },
+                    "intermediate": {
+                        "en": "You can analyze performance issues.",
+                        "de": "Du bist in der Lage, Performanceprobleme zu analysieren."
+                    },
+                    "junior": {
+                        "en": "You can apply best practices.",
+                        "de": "Du bist in der Lage, Best Practices umzusetzen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-12",
+                "label": {
+                    "en": "Complexity",
+                    "de": "Komplexität"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You describe rules and concepts to follow during implementation to avoid compromising customer goals.",
+                        "de": "Du beschreibst Regeln und Konzepte, die während der Implementierung eingehalten werden müssen, um das Kundenziel nicht zu gefährden."
+                    },
+                    "senior": {
+                        "en": "You can provide guidance for refactoring to reduce complexity.",
+                        "de": "Du bist in der Lage, Hinweise für ein Refactoring zu geben, um Kompexitäten zu reduzieren."
+                    },
+                    "intermediate": {
+                        "en": "You can manage complexity in your own code and keep it minimal.",
+                        "de": "Du kannst auf die Komplexität des eigenen Code reagieren und diese möglichst gering halten."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-13",
+                "label": {
+                    "en": "Stability",
+                    "de": "Stabilität"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You describe rules and concepts to be followed during implementation to avoid jeopardizing customer goals.",
+                        "de": "Du beschreibst Regeln und Konzepte, die während der Implementierung eingehalten werden müssen, um das Kundenziel nicht zu gefährden."
+                    },
+                    "senior": {
+                        "en": "You can recommend refactoring steps to improve stability.",
+                        "de": "Du bist in der Lage, Hinweise für ein Refactoring zu geben, um die Stabilität zu steigern."
+                    },
+                    "intermediate": {
+                        "en": "You can assess the stability of your own code.",
+                        "de": "Du kannst die Stabilität des eigenen Code beurteilen."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-14",
+                "label": {
+                    "en": "Resilience",
+                    "de": "Widerstandsfähigkeit"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You describe rules and concepts to be followed during implementation to avoid jeopardizing customer goals.",
+                        "de": "Du beschreibst Regeln und Konzepte, die während der Implementierung eingehalten werden müssen, um das Kundenziel nicht zu gefährden."
+                    },
+                    "senior": {
+                        "en": "You can determine architectural parameters.",
+                        "de": "Du bist in der Lage Parameter der Architektur zu bestimmen."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    },
+    {
+        "id": "operations",
+        "title": {
+            "en": "Operations",
+            "de": "Betrieb"
+        },
+        "items": [
+            {
+                "id": "row-15",
+                "label": {
+                    "en": "Logfiles & Outputs",
+                    "de": "Logfiles & Ausgaben"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can assess which components need to write log outputs.",
+                        "de": "Du kannst bewerten, welche Komponenten Logausgaben schreiben müssen."
+                    },
+                    "intermediate": {
+                        "en": "You can analyze logfiles and derive actions.",
+                        "de": "Du kannst Logfiles analysieren und Maßnahmen ableiten."
+                    },
+                    "junior": {
+                        "en": "You can read log outputs and map them to system components.",
+                        "de": "Du bist in der Lage, Logausgaben zu lesen und Komponenten im System zuzuordnen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-16",
+                "label": {
+                    "en": "Troubleshooting",
+                    "de": "Fehlersuche"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You can debug external code and fix identified issues.",
+                        "de": "Du bist in der Lage, fremden Code zu debuggen und ggf. gefundene Fehler beheben."
+                    },
+                    "intermediate": {
+                        "en": "You can find and fix bugs in other people's source code.",
+                        "de": "Du kannst Fehler im Quelltext anderer finden und beheben."
+                    },
+                    "junior": {
+                        "en": "You can find and fix bugs in your own code.",
+                        "de": "Du bist in der Lage, Fehler im eigenen Code zu finden und zu beheben."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    },
+    {
+        "id": "misc",
+        "title": {
+            "en": "Miscellaneous",
+            "de": "Sonstiges"
+        },
+        "items": [
+            {
+                "id": "row-17",
+                "label": {
+                    "en": "Project Estimation",
+                    "de": "Projekt Einschätzung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You can budget large projects.",
+                        "de": "Du kannst große Projekte budgetieren."
+                    },
+                    "senior": {
+                        "en": "You can estimate cross-project efforts and consider all development aspects.",
+                        "de": "Du bist in der Lage, ein Projekt übergreifend zu schätzen und kannst dabei alle Aspekte der Entwicklung berücksichtigen."
+                    },
+                    "intermediate": {
+                        "en": "You can reliably estimate complex tasks from a briefing, accounting for dependencies.",
+                        "de": "Du kannst komplexe Aufgaben anhand eines Briefings verlässlich schätzen und berücksichtigst auch Abhängigkeiten."
+                    },
+                    "junior": {
+                        "en": "You participate in estimates and can reliably estimate simple, known tasks.",
+                        "de": "Du beteiligst Dich an Schätzungen und kannst einfache, bekannte Aufgaben verlässlich schätzen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-18",
+                "label": {
+                    "en": "Technological Trend Competence",
+                    "de": "Technologische Trendkompetenz"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You align the technical direction of the department with senior leadership.",
+                        "de": "Du stimmst die technische Ausrichtung der Fachabteilung mit der GF ab."
+                    },
+                    "senior": {
+                        "en": "You regularly research current topics and actively contribute them to development. You can assess their impact on projects.",
+                        "de": "Du informierst dich regelmäßig über aktuelle Themen und bringst diese aktiv in die Entwicklung ein. Du kannst Auswirkungen auf die Projekte beurteilen."
+                    },
+                    "intermediate": {
+                        "en": "You can evaluate whether trends are relevant to your projects.",
+                        "de": "Du kannst bewerten ob Trends für die eigenen Projekte relevant sind."
+                    },
+                    "junior": {
+                        "en": "You regularly inform yourself and show interest in new technologies.",
+                        "de": "Du informierst dich regelmäßig und zeigst dich interessiert an neuen Technologien."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    },
+    {
+        "id": "intrapreneurship",
+        "title": {
+            "en": "Intrapreneurship",
+            "de": "Unternehmerische Initiative"
+        },
+        "items": [
+            {
+                "id": "row-19",
+                "label": {
+                    "en": "Company Understanding & Strategic Alignment",
+                    "de": "Unternehmensverständnis & strategische Ausrichtung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You have an excellent understanding of what our company does, our offerings, and our strategy. You align your actions accordingly, lead by example and convey this understanding to your team/unit.",
+                        "de": "Du hast ein ausgezeichnetes Verständnis davon, was wir als Unternehmen machen, was unser Angebot ist und welche Strategie wir verfolgen. Du richtest Dein Handeln danach aus, bist Vorbild und vermittelst dieses Verständnis an Dein Team/ Unit/Bereich."
+                    },
+                    "senior": {
+                        "en": "You have a very good understanding of what our company does, what our offering is, and which strategy we pursue. You align your actions accordingly, lead by example, and convey this understanding to your direct reports.",
+                        "de": "Du hast ein sehr gutes Verständnis davon, was wir als Unternehmen machen, was unser Angebot ist und welche Strategie wir verfolgen. Du richtest Dein Handeln danach aus, bist Vorbild und vermittelst dieses Verständnis an Deine Direct Reports."
+                    },
+                    "intermediate": {
+                        "en": "You have a good understanding of what our company does, what our offering is, and which strategy we pursue. You align your actions accordingly and communicate this understanding to the juniors, student workers, interns and apprentices in the team for whom you are the contact.",
+                        "de": "Du hast ein gutes Verständnis davon, was wir als Unternehmen machen, was unser Angebot ist und welche Strategie wir verfolgen. Du richtest Dein Handeln danach aus und vermittelst dieses Verständnis an die Junioren, Werkstudenten, Praktikanten und Azubis im Team, für die Du Ansprechpartner bist."
+                    },
+                    "junior": {
+                        "en": "You have a basic understanding of what our company does, what our offering is, and which strategy we pursue. You align your actions accordingly.",
+                        "de": "Du hast ein grundlegendes Verständnis davon, was wir als Unternehmen machen, was unser Angebot ist und welche Strategie wir verfolgen. Du richtest Dein Handeln danach aus."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-20",
+                "label": {
+                    "en": "New Business Development",
+                    "de": "Neugeschäftsentwicklung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You actively look for new business opportunities and pursue them when they fall into your area of responsibility, or discuss with leadership whether and how the opportunity should be pursued.",
+                        "de": "Du suchst aktiv nach Neugeschäft-Optionen und verfolgst diese, wenn sie in Deinen Bereich fallen, oder besprichst mit dem LT, ob und wie die Option verfolgt werden sollte."
+                    },
+                    "senior": {
+                        "en": "You pay attention to opportunities for new business in your work and raise them with your manager to agree on next steps.",
+                        "de": "Du achtest in Deiner Arbeit auf Möglichkeiten für Neugeschäft und adressierst sie mit Deiner Führungskraft, um das weitere Vorgehen abzustimmen."
+                    },
+                    "intermediate": {
+                        "en": "If you identify opportunities for new business, you bring them up with your manager.",
+                        "de": "Wenn du Möglichkeiten für ein Neugeschäft erkennst, adressierst du sie mit Deiner Führungskraft."
+                    },
+                    "junior": {
+                        "en": "If you notice opportunities for new business, report them to your manager.",
+                        "de": "Wenn du Möglichkeiten für ein Neugeschäft erkennst, adressierst du sie mit Deiner Führungskraft."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-21",
+                "label": {
+                    "en": "Quality Assurance & Quality Mindset",
+                    "de": "Qualitätssicherung & Qualitätsbewusstsein"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You ensure excellence of services and processes on your account(s)/unit/team and encourage a high quality mindset and quality-driven actions in your team.",
+                        "de": "Du stellst die Exzellenz der Leistungen und Prozesse auf Deinen Account(s)/ in Deiner Unit / in Deinem Team sicher und motivierst Dein Team zu einem hohen Qualitätsbewusstsein und Qualitätshandeln."
+                    },
+                    "senior": {
+                        "en": "You ensure a high level of quality towards the customer. Processes and deliverables in projects and accounts you are responsible for are characterised by high quality. You use data as the basis for proposals and decisions.",
+                        "de": "Du gewährleistest ein hohes Qualitätsniveau gegenüber dem Kunden. Prozesse und Leistungen der Projekte und Accounts die du verantwortest zeichnen sich durch hohe Qualität aus. Daten sind für Dich die Grundlage für Vorschläge und Entscheidungen."
+                    },
+                    "intermediate": {
+                        "en": "You maintain a high quality standard for the customer and help ensure quality among juniors, student workers, interns and apprentices in your team for whom you are the contact.",
+                        "de": "Du gewährleistest ein hohes Qualitätsniveau gegenüber dem Kunden. Du sorgst für eine hochwertige Qualität bei den Junioren, Werkstudenten, Praktikanten und Azubis im Team für die Du Ansprechpartner bist."
+                    },
+                    "junior": {
+                        "en": "You focus on delivering high-quality results and check your work before sharing. Your work demonstrates quality in execution.",
+                        "de": "Du legst Wert darauf, qualitativ hochwertige Ergebnisse zu liefern und prüfst Deine Arbeit daraufhin bevor du sie teilst. Deine Arbeit zeichnet sich durch Qualität in der Umsetzung aus."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-22",
+                "label": {
+                    "en": "Entrepreneurial Thinking",
+                    "de": "Unternehmerisches Denken"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are responsible for the economic performance of your unit/area and ensure the company remains profitable in line with annual, revenue and margin targets.",
+                        "de": "Du bist für die Wirtschaftlichkeit Deiner Unit/Deines Bereichs verantwortlich und sorgst dafür, dass wir als Unternehmen insgesamt profitabel sind - entsprechend der Jahres -, Umsatz- und Margenziele."
+                    },
+                    "senior": {
+                        "en": "In all your actions you keep the company's profitability in mind and act accordingly.",
+                        "de": "Bei all Deinen Handlungen hast Du die Wirtschaftlichkeit des Unternehmens im Hinterkopf und richtest Dich danach aus."
+                    },
+                    "intermediate": {
+                        "en": "You make sure your actions are economically sensible, point out issues when they occur and actively work to improve economic efficiency. You are willing to develop your entrepreneurial thinking and look beyond your specialist area.",
+                        "de": "Du achtest darauf, dass Deine Handlungen wirtschaftlich sinnvoll sind, weist darauf hin, wenn etwas schiefläuft und arbeitest aktiv mit an der Verbesserung der Wirtschaftlichkeit. Du bist bereit, Dein unternehmerisches Denken zu schulen. Du bleibst nicht nur bei deinem Fachgebiet, sondern interessierst dich für das große Ganze."
+                    },
+                    "junior": {
+                        "en": "You have a basic understanding of the company's economic situation.",
+                        "de": "Du hast ein grundlegendes Verständnis davon wie es dem Unternehmen wirtschaftlich geht."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-23",
+                "label": {
+                    "en": "Trend & Innovation Competence",
+                    "de": "Trend- und Innovationskompetenz"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You keep up to date with trends, bring this knowledge into development to advance the company and drive innovation.",
+                        "de": "Du bleibst am Puls der Zeit, informierst Dich über aktuelle Trends, bringst dieses Wissen ein, um das Unternehmen voranzubringen und treibst Innovationen voran."
+                    },
+                    "senior": {
+                        "en": "You stay current with trends in your field and the industries of our clients, bring this knowledge into your work and team, and propose potential innovations.",
+                        "de": "Du bleibst am Puls der Zeit, informierst Dich über aktuelle Trends in Deinem Fachbereich, den Branchen der Kunden auf denen Du arbeitest, bringst dieses Wissen in Deine Arbeit und Dein Team ein und machst Vorschläge für mögliche Innovationen."
+                    },
+                    "intermediate": {
+                        "en": "You stay informed about trends in your field, apply that knowledge to your work and team, and suggest ideas for innovation.",
+                        "de": "Du bleibst am Puls der Zeit, informierst Dich über aktuelle Trends in Deinem Fachbereich, bringst dieses Wissen in deine Arbeit und Dein Team ein und machst Vorschläge für mögliche Innovationen."
+                    },
+                    "junior": {
+                        "en": "You stay informed about current trends in your field and bring this knowledge into your work and team.",
+                        "de": "Du bleibst am Puls der Zeit, informierst dich über aktuelle Trends in Deinem Fachbereich, bringst dieses Wissen in deine Arbeit und Dein Team ein."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-24",
+                "label": {
+                    "en": "Strategic Business Development",
+                    "de": "Strategische Geschäftsentwicklung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You identify opportunities for new business areas and customers and actively pursue them.",
+                        "de": "Du erkennst Potenziale für neue Geschäftsfelder und Kunden und forcierst diese aktiv."
+                    },
+                    "senior": {
+                        "en": "You identify opportunities to improve customer relationships and discuss them with your team lead and BU leads.",
+                        "de": "Du erkennst Potenziale zur Verbesserung der Kundenbeziehung und diskutierst diese mit Deinem Teamleiter und den BU-Leads."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-25",
+                "label": {
+                    "en": "Fostering Innovation",
+                    "de": "Innovationsförderung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are receptive to ideas from your team, actively ask for suggestions for improvement, are open to innovative or unconventional concepts and support implementation when it makes sense for the company.",
+                        "de": "Du hast ein offenes Ohr für die Ideen Deiner Teammitglieder, fragst aktiv nach Verbesserungsvorschlägen, bist aufgeschlossen für innovative oder vielleicht kurios erscheinende Konzepte und unterstützt die Umsetzung, wenn sie für das Unternehmen Sinn macht."
+                    },
+                    "senior": {
+                        "en": "You are open to ideas from your team, actively seek suggestions for improvement and are receptive to innovative concepts.",
+                        "de": "Du hast ein offenes Ohr für die Ideen Deiner Teammitglieder, fragst aktiv nach Verbesserungsvorschlägen, bist aufgeschlossen für innovative oder vielleicht kurios erscheinende Konzepte."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-26",
+                "label": {
+                    "en": "Strategy & Portfolio Development",
+                    "de": "Strategie- und Portfolioentwicklung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You actively participate in the development of company strategy, positioning and the portfolio.",
+                        "de": "Du bist aktiv an der Weiterentwicklung der Unternehmensstrategie, der Positionierung und des Portfolios beteiligt."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-27",
+                "label": {
+                    "en": "Strategic Corporate Development",
+                    "de": "Strategische Unternehmensentwicklung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You coordinate with other directors on the content and strategic development of the company.",
+                        "de": "Du koordinierst dich mit anderen Direktoren zur inhaltlichen und strategischen Weiterentwicklung des Unternehmens."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-28",
+                "label": {
+                    "en": "Strategic Division Development",
+                    "de": "Strategische Bereichsentwicklung“"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You develop a plan to advance and grow the BU/your division and successfully implement it.",
+                        "de": "Du entwickelst einen Plan, die BU, Deinen Bereich voranzubringen und auszubauen und setzt diesen erfolgreich um."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    },
+    {
+        "id": "client",
+        "title": {
+            "en": "Client Management",
+            "de": "Kunden Führung"
+        },
+        "items": [
+            {
+                "id": "row-29",
+                "label": {
+                    "en": "Client & Industry Expertise",
+                    "de": "Kunden- und Branchenexpertise"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are an expert on your client and their industry. Based on that knowledge you act as a trusted advisor to the client.",
+                        "de": "Du bist ein Experte deines Kunden und seiner Industrie. Auf dieser Basis bist Du ein geschätzter Berater für den Kunden."
+                    },
+                    "senior": {
+                        "en": "You are very familiar with your client's projects and business/industry issues. Your direct contacts trust you as an advisor and you provide content-level guidance to the client.",
+                        "de": "Du bist bestens mit den Projekten und entsprechenden Business-/Branchen- Problemen Deines Kunden vertraut. Deine direkten Ansprechpartner vertrauen auf Dich als Berater. Du berätst den Kunden immer auch inhaltlich/fachlich."
+                    },
+                    "intermediate": {
+                        "en": "You are perceived by the client as a knowledge holder and begin to work into the client's business problems and industry context.",
+                        "de": "Du wirst vom Kunden als Knowhow-Träger wahrgenommen und beginnst Dich in die Business Probleme des Kunden und seiner Industrie einzuarbeiten."
+                    },
+                    "junior": {
+                        "en": "You try to understand solutions for clients within the industry or business objective.",
+                        "de": "Du versuchst Lösungen für Kunden innerhalb der Branche oder des Geschäftsziels zu verstehen."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-30",
+                "label": {
+                    "en": "Client Relationship Management",
+                    "de": "Kundenbeziehungsmanagement“"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are responsible for the overall relationship between the client and the company. You maintain relationships with your client contacts and decision makers (including C-level) on both sides.",
+                        "de": "Du verantwortest die gesamtheitliche Beziehung zwischen Kunden und Company. Du bist verantwortlich für die Beziehungspflege zu Deinen direkten Ansprechpartnern beim Kunden und Entscheiderkreis (inkl. C-Level) auf Kundenseite und der Company (entsprechend Deines Gewerks)."
+                    },
+                    "senior": {
+                        "en": "You maintain the relationship with your direct client contact / service contact.",
+                        "de": "Du pflegst die Beziehung zu Deinem direkten Kunden-Ansprechpartner / Dienstleistungs-Ansprechpartner."
+                    },
+                    "intermediate": {
+                        "en": "You maintain the relationship with your direct client contact.",
+                        "de": "Du pflegst die Beziehung zu Deinem direkten Kunden-Ansprechpartner."
+                    },
+                    "junior": {
+                        "en": "You start building a good relationship with the client when direct client contact is part of your work.",
+                        "de": "Du beginnst eine gute Beziehung zum Kunden aufzubauen, wenn direkter Kundenkontakt Teil Deiner Arbeit ist."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-31",
+                "label": {
+                    "en": "Pitch Preparation & Delivery",
+                    "de": "Pitch-Vorbereitung & -Durchführung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are responsible for preparing and delivering pitches from your technical perspective.",
+                        "de": "Du verantwortest die Vorbereitung und Durchführung von Pitches aus Deiner fachlichen Perspektive."
+                    },
+                    "senior": {
+                        "en": "You actively contribute to the preparation and delivery of pitches (according to your role).",
+                        "de": "Du arbeitest aktiv an Vorbereitung und Durchführung von Pitches mit (entsprechend Deines Gewerks)."
+                    },
+                    "intermediate": {
+                        "en": "You support the preparation and delivery of pitches when needed.",
+                        "de": "Du unterstützt die Vorbereitung und Durchführung von Pitches bei Bedarf."
+                    },
+                    "junior": {
+                        "en": "You assist in pitch preparation when required.",
+                        "de": "Du unterstützt die Vorbereitung von Pitches bei Bedarf."
+                    }
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-32",
+                "label": {
+                    "en": "Advisory Competence",
+                    "de": "Beratungskompetenz"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You display confident presence towards clients, including C-level, and advise on an equal footing.",
+                        "de": "Du verfügst über ein souveränes Auftreten gegenüber Kunden, inkl. C-Level und berätst auf Augenhöhe."
+                    },
+                    "senior": {
+                        "en": "You proactively advise clients — you point out problems, challenges and shortcomings, address them and proactively suggest solutions.",
+                        "de": "Du verstehst es, den Kunden proaktiv zu beraten - Du weist auf Probleme, Herausforderungen und Missstände hin, nimmst Dich dieser an und zeigst proaktiv Lösungsoptionen auf."
+                    },
+                    "intermediate": {
+                        "en": "You are able to advise the client, point out problems, challenges and issues.",
+                        "de": "Du verstehst es, den Kunden zu beraten, Du weist auf Probleme, Herausforderungen und Missstände hin."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-33",
+                "label": {
+                    "en": "Technical Project Responsibility",
+                    "de": "Fachliche Projektverantwortung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You take technical responsibility for multiple client accounts (according to your role).",
+                        "de": "Du übernimmst fachliche Verantwortung für mehrere Kundenetats (entsprechend deines Gewerks)."
+                    },
+                    "senior": {
+                        "en": "You are responsible for the technical oversight of at least one large client project/account.",
+                        "de": "Du verantwortest die fachliche Betreuung bei mindestens einem großen Kundenprojekt/Etat."
+                    },
+                    "intermediate": {
+                        "en": "You are responsible for the technical oversight of a client project.",
+                        "de": "Du verantwortest die fachliche Betreuung bei einem Kundenprojekt."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-34",
+                "label": {
+                    "en": "Client Communication & Conversation Skills",
+                    "de": "Kundenkommunikation & Gesprächsführung"
+                },
+                "descriptions": {
+                    "director": null,
+                    "senior": {
+                        "en": "You independently conduct critical client conversations and represent our company's position.",
+                        "de": "Du führst eigenständig auch kritische Kundengespräche und vertrittst dabei die Position unserer Company."
+                    },
+                    "intermediate": {
+                        "en": "You bring your ideas to the client, can articulate concerns and challenges, and raise them constructively.",
+                        "de": "Du bringst deine Ideen beim Kunden ein, kannst Bedenken und Herausforderungen formulieren und anbringen."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-35",
+                "label": {
+                    "en": "Customer Retention & Expectation Management",
+                    "de": "Kundenbindung & Erwartungsmanagement"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You manage customer retention and satisfaction holistically, including good expectation management regarding targets, orders and collaboration.",
+                        "de": "Du steuerst gesamtheitlich die Kundenbindung und Kundenzufriedenheit; unter anderem durch gutes Erwartungsmanagement in Bezug auf Zielvereinbarungen, Aufträge, Zusammenarbeit."
+                    },
+                    "senior": {
+                        "en": "You drive customer retention and satisfaction, including through expectation management for targets and collaboration. You ensure your direct reports learn how to manage expectations effectively.",
+                        "de": "Du steuerst die Kundenbindung und Kundenzufriedenheit; unter anderem durch gutes Erwartungsmanagement in Bezug auf Zielvereinbarungen und Zusammenarbeit. Du sorgst dafür, dass Deine Direct Reports lernen wie sie gutes Erwartungsmanagement betreiben können."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-36",
+                "label": {
+                    "en": "Client Relationship Development",
+                    "de": "Kundenbeziehungsentwicklung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You identify opportunities to improve client relationships and develop appropriate measures together with other unit leads.",
+                        "de": "Du erkennst Potenziale zur Verbesserung der Kundenbeziehung und entwickelst zusammen mit den anderen Unit-Leads passende Maßnahmen."
+                    },
+                    "senior": {
+                        "en": "You maintain close client contact and continuously work on a strong client relationship.",
+                        "de": "Du hast engen Kundenkontakt und arbeitest kontinuierlich an einer guten Kundenbeziehung."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-37",
+                "label": {
+                    "en": "Financial Responsibility for Client Accounts",
+                    "de": "Wirtschaftliche Verantwortung für Kundenetats"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You ensure the economic viability of the client accounts you are responsible for and make sure your team/unit acts accordingly.",
+                        "de": "Du gewährleistest die Wirtschaftlichkeit der Kundenetats, für die Du verantwortlich bist und sorgst dafür, dass Dein Team/Bereich/Unit entsprechend handelt."
+                    },
+                    "senior": {
+                        "en": "You help ensure the financial viability of the client accounts you are responsible for and foster understanding of this among your direct reports.",
+                        "de": "Du achtest mit auf die Wirtschaftlichkeit der Kundenetats, für die Du verantwortlich bist und sorgst dafür, dass Deine Direct Reports Verständnis dafür entwickeln."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-38",
+                "label": {
+                    "en": "Sales & Business Development",
+                    "de": "Sales & Business Development"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are responsible for acquiring new projects and expanding existing client relationships within your unit and across the company.",
+                        "de": "Du verantwortest die Akquise neuer Projekte und den Ausbau bestehender Kundenbeziehungen innerhalb Deiner Unit und für die gesamte Company."
+                    },
+                    "senior": {
+                        "en": "You network at project level (with clients and vendors) and leverage synergies for sales and projects. You proactively present and sell (product) ideas to clients.",
+                        "de": "Du vernetzt dich auf Projektebene (mit Kunden und Dienstleistern) und nutzt Synergien für Sales und Projekte. Du bist in der Lage, (Produkt-) Ideen beim Kunden proaktiv vorzustellen und zu verkaufen."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-39",
+                "label": {
+                    "en": "Conflict Prevention through Clear Communication",
+                    "de": "Konfliktprävention durch klare Kommunikation"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "Through clear (internal) communication, transparency, and constructive inquiry you avoid conflicts. You set an example for your team/unit.",
+                        "de": "Durch klare (interne) Kommunikation, transparente Arbeitsweise und konstruktives Nachfragen vermeidest Du Konflikte. Hierin bist Du Vorbild für Dein Team/Bereich/Unit."
+                    },
+                    "senior": {
+                        "en": "Through clear communication and constructive inquiry you prevent conflicts and act as a role model for your direct reports.",
+                        "de": "Durch klare (interne) Kommunikation, transparente Arbeitsweise und konstruktives Nachfragen vermeidest Du Konflikte. Hierin bist Du Vorbild für Deine Direct Reports."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    },
+    {
+        "id": "people-leadership",
+        "title": {
+            "en": "People Management",
+            "de": "Mitarbeitenden-Führung"
+        },
+        "items": [
+            {
+                "id": "row-40",
+                "label": {
+                    "en": "Leadership & Team Management",
+                    "de": "Führung & Teamleitung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You provide leadership and direction for a unit or large team and are responsible for your team’s results. You create conditions for effective collaboration and long-term performance.",
+                        "de": "Du bietest Führung und Richtung für eine Unit/ein großes Team/eine Unterfunktion und bist für die Ergebnisse Deines Teams/Bereich/Unit verantwortlich. Du sorgst für Rahmenbedingungen, damit Dein Team/Bereich/Unit bestmöglich zusammenarbeitet und langfristig gute Ergebnisse erzielt."
+                    },
+                    "senior": {
+                        "en": "You take on people leadership for your team / 1-5 direct reports.",
+                        "de": "Du übernimmst die Mitarbeitenden-Führung für Dein Team / 1-5 Direct Reports."
+                    },
+                    "intermediate": {
+                        "en": "You take initial responsibility in leading small (sub-)teams / individual students.",
+                        "de": "Du übernimmst erste Verantwortung in der Führung von kleinen (Teil)-Teams / einzelnen Studenten."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-41",
+                "label": {
+                    "en": "Feedback & Team Culture",
+                    "de": "Feedback- & Teamkultur"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You foster a good working atmosphere in your team through listening, appreciation, feedback, teambuilding, clear communication and good facilitation.",
+                        "de": "Du schaffst durch Zuhören, Wertschätzung, Feedback, Teambuilding, klare Kommunikation sowie gute Moderation eine gute Arbeitsatmosphäre in Deinem Team/Bereich/Unit."
+                    },
+                    "senior": {
+                        "en": "You can evaluate colleagues' work effectively, give constructive feedback and actively solicit feedback.",
+                        "de": "Du kannst die Arbeit deiner Kollegen fundiert bewerten, bist in der Lage konstruktives Feedback zu geben und forderst Feedback aktiv ein."
+                    },
+                    "intermediate": {
+                        "en": "You can provide constructive feedback relevant to others' growth and development and actively request feedback. As a basis you have completed feedback training.",
+                        "de": "Du bist in der Lage konstruktives Feedback zu geben, das für das Wachstum und die Entwicklung anderer relevant ist und forderst Feedback aktiv ein. Als Basis hast Du das Feedback Training absolviert."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-42",
+                "label": {
+                    "en": "Performance Conversations & Development",
+                    "de": "Mitarbeitergespräche & Personalentwicklung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You conduct monthly check-ins and annual development/performance conversations and ensure they are documented. You actively solicit feedback for your direct reports, consolidate it and provide relevant feedback directly and supportively. (Your employees are never surprised in annual reviews).",
+                        "de": "Du führst monatliche Check-ins und jährliche Personal/Entwicklungsgespräche und sorgst dafür, dass diese dokumentiert werden. Dafür bittest du aktiv um Feedback für Deine Direct Reports, konsolidierst dieses und gibst relevantes Feedback direkt und unterstützend weiter. (Deine Mitarbeitenden sind nie überrascht im Jahresgespräch)."
+                    },
+                    "senior": {
+                        "en": "You run monthly check-ins and annual development/performance conversations and ensure documentation. You solicit feedback for your direct reports, consolidate it and provide relevant support. You have attended training on conducting annual reviews.",
+                        "de": "Du führst monatliche Check-ins und jährliche Personal/Entwicklungsgespräche und sorgst dafür, dass diese dokumentiert werden. Dafür bittest du aktiv um Feedback für Deine Direct Reports, konsolidierst dieses und gibst relevantes Feedback direkt und unterstützend weiter. (Deine Mitarbeitenden sind nie überrascht im Jahresgespräch). Du hast an dem Training \"Jahresend Gespräche/MA-Gespräche führen\" teilgenommen."
+                    },
+                    "intermediate": {
+                        "en": "You set up regular check-ins with students, actively request feedback, consolidate it and provide relevant feedback.",
+                        "de": "Du setzt regelmäßige Check-ins mit den Studenten auf. Dafür bittest du aktiv um Feedback, konsolidierst dieses und gibst relevantes Feedback weiter."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-43",
+                "label": {
+                    "en": "Clear Communication & Work Instructions",
+                    "de": "Klare Kommunikation & Arbeitsanweisungen"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "Through clear communication you ensure your employees know and understand their goals, collaboration rules and the expectations placed on them.",
+                        "de": "Durch klare Kommunikation sorgst Du dafür, dass Deine Mitarbeitende Ihre Ziele, die Regeln in der Zusammenarbeit und die Erwartungen, die an sie gestellt werden, kennen und verstehen."
+                    },
+                    "senior": {
+                        "en": "You can formulate work instructions clearly and understandably.",
+                        "de": "Du kannst Arbeitsanweisungen inhaltlich klar und verständlich formulieren."
+                    },
+                    "intermediate": {
+                        "en": "You can write clear and understandable work instructions for your contacts (students/interns).",
+                        "de": "Du kannst Arbeitsanweisungen für Deine Kontaktpersonen (Studenten/Praktikanten) inhaltlich klar und verständlich formulieren."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-44",
+                "label": {
+                    "en": "Coaching & Mentoring",
+                    "de": "Coaching & Mentoring"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You act as a sparring partner for your team, providing professional and personal support and being available for questions or concerns. You are perceived as a trusted contact even across the company.",
+                        "de": "Du stehst Deinem Team/Deinen Mitarbeitenden fachlich und persönlich als Sparringspartner zur Seite und bist ansprechbar bei Fragen oder Anliegen. Auch unternehmensübergreifend wirst du als vertrauensvoller Ansprechpartner wahrgenommen."
+                    },
+                    "senior": {
+                        "en": "You are a contact and coach for improving performance and career development of intermediates, juniors, student workers, interns, apprentices and possibly freelancers in the team.",
+                        "de": "Du bist Ansprechpartner und Coach zur Verbesserung der Leistung und für die Karriereentwicklung von Intermediates, Junioren, Werkstudenten, Praktikanten, Azubis und ggf. Freelancer im Team."
+                    },
+                    "intermediate": {
+                        "en": "You are a contact and coach for juniors, student workers, interns and apprentices in the team.",
+                        "de": "Du bist Ansprechpartner und Coach für Junioren, Werkstudenten, Praktikanten und Azubis im Team."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-45",
+                "label": {
+                    "en": "Leadership Culture & Role Modelling",
+                    "de": "Führungskultur & Vorbildverhalten"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are a role model in behaviour and performance aligned with our company culture for your team/unit; you promote and demand the same behaviour and performance from your employees.",
+                        "de": "Du bist Vorbild in Verhalten und Leistung im Sinne unserer Unternehmenskultur für Dein Team/Bereich/Unit für den Umgang der Team-Mitglieder untereinander sowie für ihre Arbeitsweise. Du förderst und forderst dieses Verhalten und Leistung auch bei/von Deinen Mitarbeitenden."
+                    },
+                    "senior": {
+                        "en": "You foster collaboration, clearly communicate expectations and are able to hold difficult conversations with your direct reports.",
+                        "de": "Du förderst Zusammenarbeit, kommunizierst Erwartungen klar und verständlich und bist auch in der Lage schwierige Gespräche mit deinen Direct Reports zu führen."
+                    },
+                    "intermediate": {
+                        "en": "You gather experience in promoting collaboration, communicating expectations clearly, and handling difficult conversations.",
+                        "de": "Du sammelst Erfahrungen darin, Zusammenarbeit zu fördern, Erwartungen klar und verständlich zu kommunizieren und schwierige Gespräche zu führen."
+                    },
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-46",
+                "label": {
+                    "en": "Organisational Leadership & Planning",
+                    "de": "Organisatorische Führung & Planung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You are also responsible for organisational leadership of your area/team/unit (including leave approvals, replacements, training planning...).",
+                        "de": "Du verantwortest auch die organisatorische Führung Deines Bereichs/Team/Unit (inkl. Urlaubsfreigaben, Nachbesetzung, Weiterbildungsplanung...)."
+                    },
+                    "senior": {
+                        "en": "You are responsible for organisational leadership of your team (including capacity planning/staffing, overtime control, leave approvals, replacements, training planning)",
+                        "de": "Du verantwortest auch die organisatorische Führung Deines Teams (inkl. Capacity Planning/Staffing, Überstundenkontrolle, Urlaubsfreigaben, Nachbesetzung, Weiterbildungsplanung)"
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-47",
+                "label": {
+                    "en": "Strengths-Based Leadership & Goal Setting",
+                    "de": "Stärkenorientierte Führung & Zielvereinbarung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You know the individual traits, abilities and capacity of your employees and take these into account when setting goals and allocating tasks. You form suitable teams for projects/tasks to deliver successfully.",
+                        "de": "Du kennst die individuellen Eigenschaften, Fähigkeiten und Belastbarkeit Deiner Mitarbeitenden und berücksichtigst diese, u.a. bei der Setzung von Zielen und bei der Aufgabenverteilung/Staffing. Du stellst geeignete Teams für Projekte/Aufgaben zusammen, um erfolgreich zu liefern."
+                    },
+                    "senior": {
+                        "en": "You are able, in consultation with your manager, to set clear goals with your direct reports that consider their individual characteristics and open new perspectives for them.",
+                        "de": "Du bist in der Lage, nach Rücksprache mit Deiner Führungskraft klare Zielvereinbarungen mit Deinen Direct Reports festzulegen, die deren individuelle Eigenschaften berücksichtigen und ihnen neue Perspektiven aufzeigen."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-48",
+                "label": {
+                    "en": "Psychological Safety",
+                    "de": "Psychologische Sicherheit"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You create a climate of psychological safety in your area/team/unit through open communication and consistency in behaviour (risks can be taken without negative consequences within the team).",
+                        "de": "Du schaffst in Deinem Bereich/Team/Unit ein Klima psychologischer Sicherheit durch offene Kommunikation und Konstanz im Verhalten (Risiken innerhalb des Teams können ohne negative Konsequenzen eingegangen werden)."
+                    },
+                    "senior": {
+                        "en": "You convey psychological safety to your team members/direct reports by open communication and consistent behaviour.",
+                        "de": "Du vermittelst Deinen Teammitgliedern/Direct Reports psychologische Sicherheit durch offene Kommunikation und Konstanz im Verhalten (Risiken innerhalb des Teams können ohne negative Konsequenzen eingegangen werden)."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-49",
+                "label": {
+                    "en": "Overtime & Workload Management",
+                    "de": "Überstunden- & Workload-Management"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You ensure overtime stays within guidelines, is reduced promptly, and facilitate exchanges between employees and management in your area/team/unit.",
+                        "de": "Du sorgst dafür, dass Überstunden sich im Rahmen der Vorgaben bewegen, zeitnah abgebaut werden und stellst den Austausch dazu zwischen Mitarbeitenden und Führungskraft in Deinem Bereich/Team/Unit sicher."
+                    },
+                    "senior": {
+                        "en": "You ensure that overtime for your direct reports stays within guidelines and is reduced promptly.",
+                        "de": "Für Deine Direct Reports kümmerst Du Dich darum, dass Überstunden sich im Rahmen der Vorgaben bewegen und zeitnah abgebaut werden."
+                    },
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-50",
+                "label": {
+                    "en": "Participative Decision Making",
+                    "de": "Partizipative Entscheidungsfindung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You involve your team's employees in decisions and use their technical expertise.",
+                        "de": "Du beziehst die Mitarbeitende Deines Teams/Bereich/Unit in Entscheidungen mit ein und nutzt ihre fachliche Expertise."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-51",
+                "label": {
+                    "en": "Employee Development & Support",
+                    "de": "Mitarbeiterförderung & Entwicklungsbegleitung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You promote your employees' development (professionally), i.e. you know how to support their growth beyond your area/team/unit.",
+                        "de": "Du förderst deine Mitarbeitenden (beruflich), d.h. du weißt, wie Du sie in ihrer Weiterentwicklung auch über Deinen Bereich/Team/Unit hinaus unterstützen kannst."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-52",
+                "label": {
+                    "en": "Leadership Development",
+                    "de": "Führungskräfteentwicklung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You contribute to building organisational capability by developing other leaders so they can lead, train and coach teams.",
+                        "de": "Du trägst zum Aufbau organisatorischer Fähigkeiten bei, indem Du andere Führungskräfte entwickelst, damit sie Teams leiten, trainieren und coachen können."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-53",
+                "label": {
+                    "en": "Onboarding & Induction Support",
+                    "de": "Onboarding & Einarbeitungsbegleitung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You ensure new starters in your area/team/unit are welcomed personally on their first day and well supported during the induction period.",
+                        "de": "Du stellst sicher, dass Neustarter für Deinen Bereich/Team/Unit am ersten Tag persönlich empfangen und in der Einarbeitungszeit gut betreut werden."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            },
+            {
+                "id": "row-54",
+                "label": {
+                    "en": "Communication Interface with Executive Management",
+                    "de": "Schnittstellenkommunikation zur Geschäftsführung"
+                },
+                "descriptions": {
+                    "director": {
+                        "en": "You act as the link between your direct reports and executive management and are responsible for the two-way communication between them.",
+                        "de": "Du stellst das Bindeglied zwischen Deinen Direct Reports und der Geschäftsführung dar und bist für die beiderseitige Kommunikation verantwortlich."
+                    },
+                    "senior": null,
+                    "intermediate": null,
+                    "junior": null
+                },
+                "statusByTitle": {
+                    "director": "neutral",
+                    "senior": "neutral",
+                    "intermediate": "neutral",
+                    "junior": "neutral"
+                }
+            }
+        ]
+    }
+]

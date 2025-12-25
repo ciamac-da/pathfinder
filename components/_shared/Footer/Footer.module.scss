@@ -1,0 +1,30 @@
+@use '@/abstracts/spacing';
+@use '@/abstracts/color';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: spacing.$spacing-xxs;
+    background: color.$white;
+    color: color.$dark-grey;
+    font-size: size.$sp12;
+    max-height: spacing.$spacing-xs;
+    border-top: size.$sp01 solid color.$black;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        max-height: spacing.$spacing-s;
+    }
+}
+.inner {
+    width: 100%;
+    padding: 0 spacing.$spacing-xxs;
+    display: flex;
+    justify-content: center;
+    gap: spacing.$spacing-m;
+}

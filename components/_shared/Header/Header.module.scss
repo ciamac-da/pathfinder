@@ -1,0 +1,40 @@
+@use '@/abstracts/color';
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    justify-self: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: spacing.$spacing-xs 0;
+    background-color: color.$white;
+    border-bottom: size.$sp01 solid color.$black;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        padding: spacing.$spacing-s 0;
+    }
+
+    .headerContent {
+        display: flex;
+        align-items: center;
+        width: -webkit-fill-available;
+        justify-content: space-between;
+        padding: 0 spacing.$spacing-s;
+
+        @include breakpoint.media-breakpoint-up(md) {
+            padding: 0 spacing.$spacing-m;
+        }
+    }
+    .title {
+        margin: 0;
+        color: color.$black;
+    }
+}

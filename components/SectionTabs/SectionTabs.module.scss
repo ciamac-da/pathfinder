@@ -1,0 +1,39 @@
+@use '@/abstracts/color';
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.tabs {
+    display: flex;
+    gap: spacing.$spacing-base;
+    flex-wrap: wrap;
+    overflow: visible;
+    margin: spacing.$spacing-s 0;
+    padding: spacing.$spacing-base 0;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        margin: spacing.$spacing-l 0;
+        padding: spacing.$spacing-s 0;
+        gap: spacing.$spacing-xxs;
+    }
+
+    .tab {
+        height: fit-content;
+        white-space: nowrap;
+        padding: spacing.$spacing-base;
+
+        @include breakpoint.media-breakpoint-up(md) {
+            padding: spacing.$spacing-xxs;
+            transition: all 0.3s ease-in;
+
+            &:hover {
+                scale: 0.95;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+    .active {
+        background-color: color.$magenta;
+        color: color.$white;
+    }
+}

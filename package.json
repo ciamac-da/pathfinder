@@ -1,26 +1,43 @@
 {
-  "name": "pathfinder",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.0.10",
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.10",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "name": "pathfinder",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+    },
+    "dependencies": {
+        "country-flag-icons": "^1.6.4",
+        "jsp": "^0.0.2",
+        "jspdf": "^3.0.4",
+        "jspdf-autotable": "^5.0.2",
+        "next": "16.0.10",
+        "postcss": "^8.5.6",
+        "react": "19.2.1",
+        "react-dom": "19.2.1",
+        "sass": "^1.96.0",
+        "xlsx": "^0.18.5"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "@types/xlsx": "^0.0.35",
+        "eslint": "^9",
+        "eslint-config-next": "16.0.10",
+        "tailwindcss": "^4",
+        "typescript": "^5"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "useTabs": false,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "bracketSameLine": false,
+        "proseWrap": "never"
+    }
 }

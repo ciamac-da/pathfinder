@@ -1,0 +1,17 @@
+@use '@/abstracts/spacing';
+@use '@/abstracts/color';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.export {
+    padding: spacing.$spacing-xs;
+    margin-left: spacing.$spacing-xs;
+    border-radius: spacing.$spacing-base;
+    border: size.$sp01 solid color.$white;
+    background: color.$green;
+    color: color.$white;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        padding: spacing.$spacing-xs;
+    }
+}

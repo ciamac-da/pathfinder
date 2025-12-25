@@ -1,0 +1,56 @@
+@use '@/abstracts/color';
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+.langDropdown {
+    position: relative;
+
+    @include breakpoint.media-breakpoint-up(md) {
+        transition: all 0.3s ease-in;
+
+        &:hover {
+            scale: 0.95;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+.langToggle {
+    display: inline-flex;
+    align-items: center;
+    gap: spacing.$spacing-xxs;
+    background: transparent;
+    border: size.$sp01 solid color.$black;
+    padding: spacing.$spacing-xxs spacing.$spacing-xs;
+    border-radius: spacing.$spacing-xxs;
+    cursor: pointer;
+    color: color.$black;
+}
+.langLabel {
+    font-weight: 600;
+}
+.langList {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 6p x);
+    background: color.$white;
+    color: color.$black;
+    border: size.$sp01 solid color.$black;
+    border-radius: spacing.$spacing-xxs;
+    list-style: none;
+    padding: spacing.$spacing-xxs 0;
+    margin: 0;
+    box-shadow: 0 size.$sp04 size.$sp12 rgba(0, 0, 0, 0.1);
+}
+.langList li {
+    padding: spacing.$spacing-xxs spacing.$spacing-xs;
+    display: flex;
+    align-items: center;
+    gap: spacing.$spacing-xxs;
+    cursor: pointer;
+}
+.flag {
+    width: spacing.$spacing-m;
+    height: spacing.$spacing-s;
+    display: inline-block;
+}

@@ -1,0 +1,38 @@
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/color';
+
+.role-grid {
+    display: flex;
+    gap: spacing.$spacing-m;
+    flex-wrap: wrap;
+}
+.role-cell {
+    flex: 1 1 220px;
+    background: color.$white;
+    padding: spacing.$spacing-s;
+    border: size.$sp01 solid color.$black;
+    border-radius: spacing.$spacing-xs;
+}
+.role-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headInline {
+    display: flex;
+    align-items: center;
+    gap: spacing.$spacing-xxs;
+}
+.role-body {
+    margin-top: spacing.$spacing-xs;
+}
+.shortTitle {
+    font-size: size.$sp12;
+    font-weight: 600;
+}
+.description {
+    font-size: size.$sp08;
+    color: color.$dark-grey;
+    margin-top: spacing.$spacing-xxs;
+}
