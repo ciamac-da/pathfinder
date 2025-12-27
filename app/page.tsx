@@ -19,6 +19,7 @@ import { useI18n } from '@/lib/i18n';
 import { localizeToString } from '@/lib/localize';
 import SearchBar from '@/components/SearchBar/SearchBar';
 import ExportPdfButton from '@/components/ExportPdf/ExportPdfButton';
+import Spinner from '@/components/_shared/Spinner/Spinner';
 import styles from './Page.module.scss';
 
 export default function Page() {
@@ -26,9 +27,15 @@ export default function Page() {
     const [sections, setSections] = useState<MatrixSection[] | null>(null);
     const [active, setActive] = useState<string>('');
     const [query, setQuery] = useState('');
-    const [title, setTitle] = useState<Title>('senior'); // default focus
+    const [title, setTitle] = useState<Title>('senior');
     const [summary, setSummary] = useState<string>('');
+    const [ showLoading, setShowLoading ] = useState(true);
 
+
+    useEffect(() => {
+        const timer = setTimeout(() => setShowLoading(false), 1000);
+        return () => clearTimeout(timer);
+    }   , []);
     // First load: attempt to bootstrap from localStorage in an effect (client-only).
     useEffect(() => {
         const s = loadSummary();
@@ -173,8 +180,8 @@ export default function Page() {
         });
     }, [activeSection, query, title, locale]);
 
-    if (!sections || !sections.length) {
-        return <div style={{ padding: 24 }}>{t('loading')}</div>;
+    if (showLoading || !sections || !sections.length) {
+        return <Spinner />
     }
 
     // Cycle status for selected role

@@ -1,0 +1,14 @@
+@use '@/abstracts/color';
+@use '@/abstracts/spacing';
+@use '@/abstracts/size';
+@use '@/abstracts/breakpoint';
+
+
+.wrapper {
+    
+.spinner {
+    display: flex;
+    margin: auto;
+    margin-top: spacing.$spacing-3-xl;
+}
+}
