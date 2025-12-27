@@ -1,4 +1,5 @@
 Pathfinder — Software Engineering Matrix
+## https://pathfinder-mauve.vercel.app/
 =====================================
 
 Pathfinder is a small internal React + Next.js application for maintaining a "software engineering matrix": categorized items with per-role RAG (Red/Amber/Green) statuses, per-role descriptions, and optional per-item notes. The app supports English and German translations, persists answers in `localStorage`, and can export the matrix to a PDF (including a final summary page).
