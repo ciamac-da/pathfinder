@@ -12,7 +12,7 @@ const TRANSLATIONS: Record<Locale, Record<string, string>> = {
         exportAndReset: 'Export & Reset',
         confirmReset:
             'Export complete. Do you want to reset all answers to defaults? This cannot be undone.',
-        searchPlaceholder: 'Search items…',
+        searchPlaceholder: 'Search in selected tab items...',
         exportPdf: 'Export PDF',
         selectTitle: 'Select title',
         addMoreInfo: 'Add more info',
@@ -44,7 +44,7 @@ const TRANSLATIONS: Record<Locale, Record<string, string>> = {
         exportAndReset: 'Exportieren & Zurücksetzen',
         confirmReset:
             'Export abgeschlossen. Möchtest du alle Antworten auf die Standardwerte zurücksetzen? Dies kann nicht rückgängig gemacht werden.',
-        searchPlaceholder: 'Elemente durchsuchen…',
+        searchPlaceholder: 'In ausgewählten Tabs suchen...',
         exportPdf: 'PDF exportieren',
         selectTitle: 'Titel auswählen',
         addMoreInfo: 'Mehr Informationen hinzufügen',
