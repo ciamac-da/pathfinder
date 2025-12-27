@@ -16,10 +16,6 @@
     font-size: size.$sp12;
     max-height: spacing.$spacing-xs;
     border-top: size.$sp01 solid color.$black;
-
-    @include breakpoint.media-breakpoint-up(md) {
-        max-height: spacing.$spacing-s;
-    }
 }
 .inner {
     width: 100%;
