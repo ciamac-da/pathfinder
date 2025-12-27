@@ -14,12 +14,12 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: spacing.$spacing-xs 0;
+    padding: spacing.$spacing-xxs 0;
     background-color: color.$white;
     border-bottom: size.$sp01 solid color.$black;
 
     @include breakpoint.media-breakpoint-up(md) {
-        padding: spacing.$spacing-s 0;
+        padding: spacing.$spacing-xs 0;
     }
 
     .headerContent {

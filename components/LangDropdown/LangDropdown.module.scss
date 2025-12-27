@@ -5,15 +5,6 @@
 
 .langDropdown {
     position: relative;
-
-    @include breakpoint.media-breakpoint-up(md) {
-        transition: all 0.3s ease-in;
-
-        &:hover {
-            scale: 0.95;
-            transition: all 0.3s ease-in-out;
-        }
-    }
 }
 .langToggle {
     display: inline-flex;
